@@ -7,7 +7,7 @@ This is just my repo for storing useful stuff.
 * Code Examples
   * Docker
     * [Sinatra](docs/docker/sinatra.md)
-    * [MariaDB + PhpMyAdmin](docs/docker/mariadb_phpmyadmin.md)
+    * [MariaDB + PhpMyAdmin + WordPress](docs/docker/mariadb_phpmyadmin_wordpress.md)
   * Ruby
     * [Generate RSA keys and Encrypting/Decrypting data](docs/code_examples/ruby/rsa_keys.md)
     * [Mechanize Cheatsheet](docs/code_examples/ruby/mechanize.md)

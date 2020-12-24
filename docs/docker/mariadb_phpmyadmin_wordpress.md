@@ -9,6 +9,7 @@
 ```yaml
 version: "3.7"
 
+
 services:
 
 
@@ -38,6 +39,21 @@ services:
       UPLOAD_LIMIT:  '10G'
       PMA_ARBITRARY: 1
   # ----------------------------------------------------------------------
+
+
+  # WordPress
+  # ----------------------------------------------------------------------
+  wordpress:
+    image:      'wordpress:latest'
+    ports:      [ '3000:80' ]
+    restart:    'always'
+    depends_on: [ 'mariadb' ]
+    environment:
+      WORDPRESS_DB_HOST:     'mariadb:3306'
+      WORDPRESS_DB_USER:     'root'
+      WORDPRESS_DB_PASSWORD: 'qwerty'
+      WORDPRESS_DB_NAME:     'wordpress'
+    # ----------------------------------------------------------------------
 
 
 volumes:
