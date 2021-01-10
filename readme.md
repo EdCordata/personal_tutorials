@@ -10,6 +10,7 @@ This is just my repo for storing useful stuff.
     * [MariaDB + PhpMyAdmin + WordPress](docs/docker/mariadb_phpmyadmin_wordpress.md)
   * Ruby
     * [Generate RSA keys and Encrypting/Decrypting data](docs/code_examples/ruby/rsa_keys.md)
+    * [Active Record without Rails](docs/code_examples/ruby/active_record_without_rails.md)
     * [Mechanize Cheatsheet](docs/code_examples/ruby/mechanize.md)
     * [PhantomJS Cheatsheet](docs/code_examples/ruby/phantomjs.md)
     * [Nokogiri Cheatsheet](docs/code_examples/ruby/nokogiri.md)
