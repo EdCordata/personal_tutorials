@@ -58,9 +58,9 @@ class CreateProductsTable < ActiveRecord::Migration[5.2]
 
   def up
     unless ActiveRecord::Base.connection.table_exists?(:products)
-      create_table :products do |table|
-        table.string :name
-        table.timestamps
+      create_table :products do |t|
+        t.string :name
+        t.timestamps
       end
     end
   end
