@@ -1,4 +1,4 @@
-# Mechanize
+# Ruby - Mechanize
 
 
 #### Basic Usage

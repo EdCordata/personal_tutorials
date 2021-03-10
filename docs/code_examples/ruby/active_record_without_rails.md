@@ -1,4 +1,4 @@
-# Active Record without Rails
+# Ruby - Active Record without Rails
 
 ```ruby
 source 'https://rubygems.org'

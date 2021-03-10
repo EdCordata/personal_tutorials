@@ -1,4 +1,4 @@
-# Generating RSA keys & Encrypting/Decrypting data
+# Ruby - Generating RSA keys & Encrypting/Decrypting data
 
 
 #### Generate/Read key:

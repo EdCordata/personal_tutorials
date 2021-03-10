@@ -1,4 +1,4 @@
-# TinyMCE
+# JavaScript - TinyMCE
 
 
 #### Add to `Gemfile`:
