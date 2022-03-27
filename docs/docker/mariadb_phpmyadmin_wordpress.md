@@ -21,6 +21,7 @@ services:
     volumes: [ 'mariadb-data:/var/lib/mysql' ]
     environment:
       MYSQL_ROOT_PASSWORD: 'qwerty'
+      MYSQL_DATABASE: 'wordpress'
   # ----------------------------------------------------------------------
 
 
@@ -53,7 +54,7 @@ services:
       WORDPRESS_DB_USER:     'root'
       WORDPRESS_DB_PASSWORD: 'qwerty'
       WORDPRESS_DB_NAME:     'wordpress'
-    # ----------------------------------------------------------------------
+  # ----------------------------------------------------------------------
 
 
 volumes:
